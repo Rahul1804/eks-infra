@@ -3,7 +3,7 @@ variable "profile" {
 }
 
 variable "region" {
-  default = "ap-south-1"
+  default = "eu-central-1"
 }
 
 variable "key" {
@@ -15,13 +15,12 @@ variable "sub_ids" {
 }
 
 variable "instance-ami" {
-  default = "ami-0b99c7725b9484f9e" # AMI of Mumbai region
+  default = "ami-0b99c7725b9484f9e"
 }
 
 variable "instance_type" {
   default = "t3.medium"
 }
-
 
 variable "cluster-name" {
   description = "Cluster Name"
@@ -34,4 +33,3 @@ variable "server-name" {
 variable "vpc_name" {
   description = "VPC name"
 }
-  
