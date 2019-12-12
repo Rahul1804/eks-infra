@@ -15,7 +15,7 @@ variable "sub_ids" {
 }
 
 variable "instance-ami" {
-  default = "ami-0b99c7725b9484f9e"
+  default = "ami-03fbd442f4f3aa689"
 }
 
 variable "instance_type" {
